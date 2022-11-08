@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Booking</title>
+  <meta keywords="arrangementer bryllup">
+  <link rel="stylesheet" href="Oppgave5.css">
+</head>
+<body>
+  <div class="booking">
+  <h3>Velkommen til <abbr title="Guttas Vertshus er et lokale eid av 5 ambisjonsfylte gutter som leies ut til forskjellige arrangement og samlinger.
+    I tillegg til dette er det også Cafe á la Gutta i bygningen som er åpent 4 dager i uka med et personale som er klar til å ta imot de som måtte ønske god bakst og en kopp kaffe eller te. 
+    Lokalet vi leier ut har plass til omtrentlig 70 personer, hvor det kan være mulig å få plass til flere med utbytte av plass til eventuelle koldtbord eller kakebord. 
+    Adressen for dette flottet lokalet er Leiknesveien 43, 9307 Finnsnes
+    Og om dere ønsker å booke et lokale som er perfekt for fest, konfirmasjon, dåp eller andre relevante arrangement kan dere fylle ut vedlagt skjema og sende søknad.
+    "> Guttas Vertshus!</abbr></h3>
+  <br>
+  <br>
+
+
+
+<div>
+  <form action="Booking.html" method="post">
+    <label for="forNavn">Fornavn:</label>
+    <input type="text" name="forNavn" placeholder="Fornavn">
+</div>
+<br>
+<div>
+  <label for="etterNavn">Etternavn:</label>
+  <input type="text" name="etterNavn" placeholder="Etternavn">
+</div>
+<br>
+<div>
+  <label for="eMail">E-Mail:</label>
+  <input type="text" name="eMail" placeholder="e-mail adresse">
+</div>
+<br>
+<div>
+  <label for="typeArrangementet">Type av arrangementet:</label>
+  <select name="typeArrangementet">
+    <option value="fest">Fest</option>
+    <option value="konfirmasjon">Konfirmasjon</option>
+    <option value="bryllup" selected="selected">Bryllup</option>
+    <option value="dåp">Dåp</option>
+    <option value="andre">Andre</option>
+  </select> 
+</div>
+<br>
+<div>
+  <label for="antall">Antall personer:</label>
+  <input type="number" name="antall" placeholder="50">
+</div>
+<br>
+<div>
+  <label for="dato">Dato:</label>
+  <input type="date" name="dato">
+</div>
+<br>
+<div>
+  <label for="komment">Kommentar:</label>
+  <textarea name="komment" id="" cols="30" rows="10"></textarea>
+</div>
+<br>
+<div>
+  <input type="submit" value="Send">
+</div>
+  </form>
+
+
+</div>
+<div>
+  <img src="Images/Bilde1.jpg" width="100%" alt="Bilde av lokalen">
+</div>
+</body>
+</html>
